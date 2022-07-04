@@ -1,0 +1,123 @@
+.header {
+  background-image: linear-gradient(to right,#7A2EF4, #00BFFF);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 2;
+
+  .logo {
+    width: 79.5px;
+    height: 21.4px;
+  }
+  .nav>li>a:hover {
+    text-decoration: none;
+    background-color: unset !important;
+  }
+  .code-title {
+    text-decoration: none !important;
+    margin-right: 10px;
+    color:#ffffff;
+    font-family: HelveticaNeue;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    text-shadow: 0 1px 11px rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    padding-left: 30px;
+  }
+  .header-nav-item {
+    text-decoration: none !important;
+    margin-right: 10px;
+    color:#ffffff;
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .Hi-John {
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    text-align: right;
+    color: #ffffff;
+  }
+  .userImageTopRight {
+    width: 31.9px;
+    border-radius: 50%;
+    height: 30px;
+    margin-top: -9px;
+  }
+  .dropdown-item:focus, .dropdown-item:hover {
+    outline: none !important;
+    text-decoration: none;
+    background-color: #f8f9fa;
+  }
+  .position-right {
+    position: absolute;
+    right: 20px;
+  }
+}
+.sm-menu {
+  color: #00BFFF;
+  &.dropdown {
+    display: block;
+  }
+  .btn:hover{
+    color: unset;
+  }
+  .btn-secondary{
+    background: unset !important;
+    border: none !important;
+    outline: 0;
+    box-shadow: none;
+    &:focus-visible{
+      border-color: unset !important;
+      box-shadow: unset !important;
+      outline: none !important;
+    }
+    .navbar-toggler-icon{
+      font-size: 20px;
+    }
+  }
+  @media only screen and (min-width: 574px) and (max-width: 770px) {
+    &.dropdown {
+      //margin-right: -28px;
+    }
+  }
+}
+@media screen and(max-width: 1024px){
+  .header{
+    display: block;
+    .position-right{
+      top: 4px;
+    }
+   .header-nav-item{
+     position: absolute;
+     top: 4px;
+   }
+    .collapse:not(.show) {
+      display: block;
+    }
+  }
+}
+@media only screen and (max-width: 992px) {
+  //&.dropdown{
+  //  justify-content: space-between;
+  //  display: flex;
+  //  .Hi-John{
+  //    //margin-top: 4px;
+  //  }
+  //  .btn-secondary{
+  //    background: unset !important;
+  //    border: none;
+  //    outline: 0;
+  //    box-shadow: none;
+  //    .navbar-toggler-icon{
+  //      font-size: 20px;
+  //    }
+  //  }
+  //}
+}

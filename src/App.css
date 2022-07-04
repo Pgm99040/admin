@@ -1,0 +1,25 @@
+.Toastify__toast-body{
+    font-size: 15px;
+}
+
+.session-block{
+    padding: 15px;
+    margin-top: 10px;
+    border: 1px solid #a09f9f;
+    box-shadow: 0 0 9px 0 rgba(102, 102, 102, 0.13);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.ant-card-head-title{
+    white-space: break-spaces !important;
+}
+
+.remote {
+    align-items: center;
+}
+
+.remote .ant-input {
+    width: auto!important;
+}

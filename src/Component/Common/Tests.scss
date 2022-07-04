@@ -1,0 +1,82 @@
+.tests {
+  font-size: 80% !important;
+  .text-right button{
+padding: 5px 20px;
+    font-size: 15px;
+  }
+  .col-md-4 {
+    .card {
+      margin: 10px 0;
+      border-radius: 4px;
+      box-shadow: 0 0 9px 0 rgba(102, 102, 102, 0.13);
+      .card-body {
+        overflow: hidden;
+        height: 155px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        span{
+          font-size: 15px;
+        }
+        .card-title{
+          font-size: 20px;
+        }
+        .card-text{
+          font-size: 20px;
+        }
+        .job-role{
+          float: right;
+          font-size: 15px;
+          background-color: #0000ffcf;
+          color: white;
+          display: inline-block;
+          padding: 5px 10px;
+          border-radius: 5px;
+        }
+      }
+      .hover-active {
+        display: none;
+      }
+      &:hover {
+        opacity: 0.9;
+        border-radius: 4px;
+        background-color: #4370f9;
+        .card-body {
+          position: relative;
+          .hover-active {
+            display: block;
+            position: absolute;
+            top: 85px;
+            left: 0;
+            right: 0;
+            a {
+              cursor: pointer;
+              border: solid 1px #ffffff;
+              padding: 10px;
+              border-radius: 50%;
+            }
+          }
+          .card-title, span,i {
+            color: #ffffff;
+          }
+          .text-muted {
+            color: #6a6b6d38 !important;
+          }
+        }
+
+      }
+    }
+  }
+}
+@media only screen and (min-width: 765px) and (max-width: 1768px){
+  .tests{
+    .col-md-4{
+      .card{
+        .card-body{
+          overflow: hidden;
+          height: 200px;
+        }
+      }
+    }
+  }
+}

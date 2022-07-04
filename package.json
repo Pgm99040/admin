@@ -1,0 +1,61 @@
+{
+  "name": "Codediy-admintool-fe",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.12.0",
+    "@testing-library/react": "^11.2.6",
+    "@testing-library/user-event": "^12.8.3",
+    "antd": "^4.12.2",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "ckeditor4-integrations-common": "^1.0.0",
+    "cross-env": "^7.0.3",
+    "lodash.clonedeep": "^4.5.0",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33",
+    "node-sass": "^4.9.0",
+    "node-sass-chokidar": "^1.2.2",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.4.3",
+    "react-bootstrap4-modal": "^1.7.5",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "4.0.3",
+    "react-toastify": "^7.0.4",
+    "reactstrap": "^8.9.0",
+    "web-vitals": "^1.1.1",
+    "@ant-design/icons": "latest"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "dev": "cross-env REACT_APP_ENV=development react-scripts start",
+    "start:prod": "cross-env REACT_APP_ENV=production react-scripts start",
+    "start:staging": "cross-env REACT_APP_ENV=staging react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-tag-input-component": "^1.0.7"
+  }
+}
